@@ -226,6 +226,15 @@
         </dict>
 
         <dict>
+            <key>match</key>
+            <string>\b(iStartProof|iStopProof|iExact|iAssumption|iApply|iIntros|iClear|iRevert|iRename|iSpecialize|iPoseProof|iAssert|iSelect|iPureIntro|iLeft|iRight|iSplitL|iSplitR|iSplit|iExists|iExFalso|iDestruct|iFrame|iCombine|iAccu|iModIntro|iMod|iLöb|iInduction|iRewrite|iEval|iSimpl|iInv)\b</string>
+            <key>comment</key>
+            <string>Iris Ltac</string>
+            <key>name</key>
+            <string>support.function.iris</string>
+        </dict>
+
+        <dict>
             <key>applyEndPatternLast</key>
             <integer>1</integer>
             <key>begin</key>
